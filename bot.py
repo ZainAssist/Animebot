@@ -26,7 +26,7 @@ async def handle_query(client, query):
       but = [[InlineKeyboardButton("Generate again ✨", callback_data=f'again')],
              [InlineKeyboardButton("Join 🌺", url=f'https://t.me/+-o9-tiKTRrhmY2Zl')]]
       markup = InlineKeyboardMarkup(but)
-      await query.message.reply_photo(up,caption="**@About_Zain**",reply_markup=markup)
+      await query.message.reply_photo(up,caption="**@The_Eternity_Soul**",reply_markup=markup)
      else:
       await query.message.reply("Request failed try /again")
     		
